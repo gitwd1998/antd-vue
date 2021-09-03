@@ -1,32 +1,29 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
-<style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+<script>
+import { getUserInfo } from "@/api";
+export default {
+  data() {
+    return {};
+  },
+  async created() {
+    let token = this.$store.getters.getToken || "";
+    if (token) {
+      let { data } = await getUserInfo({ token });
+      if (data.code === "0") {
+        this.$store.commit("setUser", data.data.user);
+        this.$store.commit("setPhone", data.data.phone);
+        this.$store.commit("setHead", data.data.head);
+      } else {
+        this.$router.replace({ path: "/login" });
+      }
+    } else {
+      this.$router.replace({ path: "/login" });
     }
-  }
-}
-</style>
+  },
+};
+</script>

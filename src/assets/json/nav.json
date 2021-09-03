@@ -1,0 +1,366 @@
+[
+    {
+        "title": "General",
+        "name": "",
+        "icon": "appstore",
+        "item": [
+            {
+                "title": "Button",
+                "name": "按钮",
+                "icon": "gold",
+                "to": "/button",
+                "item": [
+                    {
+                        "title": "Button",
+                        "name": "按钮",
+                        "icon": "build",
+                        "to": "/button",
+                        "item": []
+                    }
+                ]
+            },
+            {
+                "title": "Icon",
+                "name": "图标",
+                "icon": "gold",
+                "to": "/icon",
+                "item": []
+            }
+        ]
+    },
+    {
+        "title": "Layout",
+        "name": "布局",
+        "icon": "appstore",
+        "item": [
+            {
+                "title": "Grid",
+                "name": "栅格",
+                "icon": "gold",
+                "to": "/grid",
+                "item": []
+            },
+            {
+                "title": "Layout",
+                "name": "布局",
+                "icon": "gold",
+                "to": "/layout",
+                "item": []
+            },
+            {
+                "title": "Space",
+                "name": "间距",
+                "icon": "gold",
+                "to": "/space",
+                "item": []
+            }
+        ]
+    },
+    {
+        "title": "Navigation",
+        "name": "导航",
+        "icon": "appstore",
+        "item": [
+            {
+                "title": "Affix",
+                "name": "固钉",
+                "icon": "gold",
+                "to": "/affix",
+                "item": []
+            },
+            {
+                "title": "Breadcrumb",
+                "name": "弹出框",
+                "icon": "gold",
+                "to": "/breadcrumb",
+                "item": []
+            },
+            {
+                "title": "Dropdown",
+                "name": "下拉菜单",
+                "icon": "gold",
+                "to": "/dropdown",
+                "item": []
+            },
+            {
+                "title": "Menu",
+                "name": "导航菜单",
+                "icon": "gold",
+                "to": "/menu",
+                "item": []
+            },
+            {
+                "title": "PageHeader",
+                "name": "页头",
+                "icon": "gold",
+                "to": "/pageHeader",
+                "item": []
+            },
+            {
+                "title": "Pagination",
+                "name": "分页",
+                "icon": "gold",
+                "to": "/pagination",
+                "item": []
+            },
+            {
+                "title": "Steps",
+                "name": "步骤条",
+                "icon": "gold",
+                "to": "/steps",
+                "item": []
+            }
+        ]
+    },
+    {
+        "title": "Data Entry",
+        "name": "",
+        "icon": "appstore",
+        "item": [
+            {
+                "title": "Badge",
+                "name": "徽标",
+                "to": "/badge",
+                "item": []
+            },
+            {
+                "title": "Circle",
+                "name": "环形进度条",
+                "to": "/circle",
+                "item": []
+            },
+            {
+                "title": "Collapse",
+                "name": "折叠面板",
+                "to": "/collapse",
+                "item": []
+            },
+            {
+                "title": "CountDown",
+                "name": "倒计时",
+                "to": "/countDown",
+                "item": []
+            },
+            {
+                "title": "Divider",
+                "name": "分割线",
+                "to": "/divider",
+                "item": []
+            },
+            {
+                "title": "Empty",
+                "name": "空状态",
+                "to": "/empty",
+                "item": []
+            },
+            {
+                "title": "ImagePreview",
+                "name": "图片预览",
+                "to": "/imagePreview",
+                "item": []
+            },
+            {
+                "title": "Lazyload",
+                "name": "懒加载",
+                "to": "/lazyload",
+                "item": []
+            },
+            {
+                "title": "List",
+                "name": "列表",
+                "to": "/list",
+                "item": []
+            },
+            {
+                "title": "NoticeBar",
+                "name": "通知栏",
+                "to": "/noticeBar",
+                "item": []
+            },
+            {
+                "title": "Popover",
+                "name": "气泡弹出框",
+                "to": "/popover",
+                "item": []
+            },
+            {
+                "title": "Progress",
+                "name": "进度条",
+                "to": "/progress",
+                "item": []
+            },
+            {
+                "title": "Skeleton",
+                "name": "骨架屏",
+                "to": "/skeleton",
+                "item": []
+            },
+            {
+                "title": "Steps",
+                "name": "步骤条",
+                "to": "/steps",
+                "item": []
+            },
+            {
+                "title": "Sticky",
+                "name": "粘性布局",
+                "to": "/sticky",
+                "item": []
+            },
+            {
+                "title": "Swipe",
+                "name": "轮播",
+                "to": "/swipe",
+                "item": []
+            },
+            {
+                "title": "Tag",
+                "name": "标签",
+                "to": "/tag",
+                "item": []
+            }
+        ]
+    },
+    {
+        "title": "Data Display",
+        "name": "",
+        "icon": "appstore",
+        "item": [
+            {
+                "title": "Grid",
+                "name": "宫格",
+                "to": "/grid",
+                "item": []
+            },
+            {
+                "title": "IndexBar",
+                "name": "索引栏",
+                "to": "/indexBar",
+                "item": []
+            },
+            {
+                "title": "NavBar",
+                "name": "导航栏",
+                "to": "/navBar",
+                "item": []
+            },
+            {
+                "title": "Pagination",
+                "name": "分页",
+                "to": "/pagination",
+                "item": []
+            },
+            {
+                "title": "Sidebar",
+                "name": "侧边导航",
+                "to": "/sidebar",
+                "item": []
+            },
+            {
+                "title": "Tab",
+                "name": "标签页",
+                "to": "/tab",
+                "item": []
+            },
+            {
+                "title": "Tabbar",
+                "name": "标签栏",
+                "to": "/tabbar",
+                "item": []
+            },
+            {
+                "title": "TreeSelect",
+                "name": "分类选择",
+                "to": "/treeSelect",
+                "item": []
+            }
+        ]
+    },
+    {
+        "title": "Feedback",
+        "name": "反馈",
+        "icon": "appstore",
+        "item": [
+            {
+                "title": "AddressEdit",
+                "name": "地址编辑",
+                "to": "/addressEdit",
+                "item": []
+            },
+            {
+                "title": "AddressList",
+                "name": "地址列表",
+                "to": "/addressList",
+                "item": []
+            },
+            {
+                "title": "Area",
+                "name": "省市区选择",
+                "to": "/area",
+                "item": []
+            },
+            {
+                "title": "Card",
+                "name": "商品卡片",
+                "to": "/card",
+                "item": []
+            },
+            {
+                "title": "ContactCard",
+                "name": "联系人卡片",
+                "to": "/contactCard",
+                "item": []
+            },
+            {
+                "title": "ContactEdit",
+                "name": "联系人编辑",
+                "to": "/contactEdit",
+                "item": []
+            },
+            {
+                "title": "ContactList",
+                "name": "联系人列表",
+                "to": "/contactList",
+                "item": []
+            },
+            {
+                "title": "Coupon",
+                "name": "优惠券",
+                "to": "/coupon",
+                "item": []
+            },
+            {
+                "title": "GoodsAction",
+                "name": "商品导航",
+                "to": "/goodsAction",
+                "item": []
+            },
+            {
+                "title": "SubmitBar",
+                "name": "提交订单栏",
+                "to": "/submitBar",
+                "item": []
+            },
+            {
+                "title": "Sku",
+                "name": "商品规格",
+                "to": "/sku",
+                "item": []
+            }
+        ]
+    },
+    {
+        "title": "Other",
+        "name": "其他",
+        "icon": "appstore",
+        "item": [
+            {
+                "title": "Anchor",
+                "name": "锚点",
+                "iocn": "gold",
+                "to": "/achor",
+                "item": []
+            }
+        ]
+    }
+]
