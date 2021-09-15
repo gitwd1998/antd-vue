@@ -3,12 +3,12 @@ import axios from 'axios'
 console.warn(process.env)
 import { Message } from 'ant-design-vue'
 import router from '../router'
-
+import store from '../store'
 
 const service = axios.create({
   baseURL: process.env.VUE_APP_BAES_URL,
   timeout: 3000,
-  headers: { 'Authorization': localStorage.getItem('token') },
+  headers: { 'Authorization': store.getters.getToken },
 })
 
 // 接口白名单不需要校验token的api
