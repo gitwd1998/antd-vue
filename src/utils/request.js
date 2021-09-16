@@ -8,7 +8,7 @@ import store from '../store'
 const service = axios.create({
   baseURL: process.env.VUE_APP_BAES_URL,
   timeout: 3000,
-  headers: { 'Authorization': store.getters.getToken },
+  headers: { 'Authorization': store.getters.getToken || '' },
 })
 
 // 接口白名单不需要校验token的api
