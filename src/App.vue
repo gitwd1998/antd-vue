@@ -17,9 +17,9 @@ export default {
     if (token) {
       let data = await getUserInfo({ token });
       if (data.code === "0") {
-        this.$store.commit("setUser", data.user);
-        this.$store.commit("setPhone", data.phone);
-        this.$store.commit("setHead", data.head);
+        this.$store.commit("setUser", data.data.user);
+        this.$store.commit("setPhone", data.data.phone);
+        this.$store.commit("setHead", data.data.head);
       } else {
         Message.error(data.msg || `${data.name}: ${data.message}`);
         localStorage.removeItem("token");
