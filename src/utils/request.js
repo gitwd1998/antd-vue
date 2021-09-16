@@ -8,7 +8,6 @@ import store from '../store'
 const service = axios.create({
   baseURL: process.env.VUE_APP_BAES_URL,
   timeout: 3000,
-  headers: { 'Authorization': store.getters.getToken || '' },
 })
 
 // 接口白名单不需要校验token的api
@@ -16,6 +15,7 @@ const apiwhitelist = ['/captcha', '/login', '/regist']
 
 // request interceptor(请求拦截器)
 service.interceptors.request.use(request => {
+  request.headers['Authorization'] = store.getters.getToken || ''
   const { url, headers } = request
   if (apiwhitelist.includes(url)) return Promise.resolve(request)
   const token = headers.Authorization

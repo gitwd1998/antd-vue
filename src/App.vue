@@ -23,6 +23,7 @@ export default {
       } else {
         Message.error(data.msg || `${data.name}: ${data.message}`);
         localStorage.removeItem("token");
+        this.$store.commit("setToken", "");
         this.$router.replace({ path: "/login" });
       }
     } else {

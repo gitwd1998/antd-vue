@@ -95,6 +95,19 @@ export default {
           let data = await login(this.form);
           if (data.code === "0") {
             localStorage.setItem("token", data.data);
+            this.$store.commit("setToken", data.data);
+            getUserInfo({ token: data.data }).then((res) => {
+              if (res.code === "0") {
+                this.$store.commit("setUserName", res.data.username);
+                this.$store.commit("setPhoneNumber", res.data.phonenumber);
+                this.$store.commit("setAvatar", res.data.avatar);
+              } else {
+                Toast(res.msg || `${res.name}: ${res.message}`);
+                localStorage.removeItem("token");
+                this.$store.commit("setToken", "");
+                this.$router.replace({ path: "/login" });
+              }
+            });
             Message.success(data.msg);
             this.$router.replace("/layout");
           } else {
