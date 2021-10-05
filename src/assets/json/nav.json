@@ -1,28 +1,24 @@
 [
     {
         "title": "General",
-        "name": "",
+        "name": "通用",
         "icon": "appstore",
+        "disabled": false,
+        "to": "/general",
         "item": [
             {
                 "title": "Button",
                 "name": "按钮",
                 "icon": "gold",
+                "disabled": true,
                 "to": "/button",
-                "item": [
-                    {
-                        "title": "Button",
-                        "name": "按钮",
-                        "icon": "build",
-                        "to": "/button",
-                        "item": []
-                    }
-                ]
+                "item": []
             },
             {
                 "title": "Icon",
                 "name": "图标",
                 "icon": "gold",
+                "disabled": true,
                 "to": "/icon",
                 "item": []
             }
@@ -32,11 +28,14 @@
         "title": "Layout",
         "name": "布局",
         "icon": "appstore",
+        "disabled": false,
+        "to": "/layout",
         "item": [
             {
                 "title": "Grid",
                 "name": "栅格",
                 "icon": "gold",
+                "disabled": true,
                 "to": "/grid",
                 "item": []
             },
@@ -44,6 +43,7 @@
                 "title": "Layout",
                 "name": "布局",
                 "icon": "gold",
+                "disabled": true,
                 "to": "/layout",
                 "item": []
             },
@@ -51,6 +51,7 @@
                 "title": "Space",
                 "name": "间距",
                 "icon": "gold",
+                "disabled": true,
                 "to": "/space",
                 "item": []
             }
@@ -60,11 +61,14 @@
         "title": "Navigation",
         "name": "导航",
         "icon": "appstore",
+        "disabled": false,
+        "to": "/navigation",
         "item": [
             {
                 "title": "Affix",
                 "name": "固钉",
                 "icon": "gold",
+                "disabled": false,
                 "to": "/affix",
                 "item": []
             },
@@ -72,6 +76,7 @@
                 "title": "Breadcrumb",
                 "name": "弹出框",
                 "icon": "gold",
+                "disabled": false,
                 "to": "/breadcrumb",
                 "item": []
             },
@@ -79,6 +84,7 @@
                 "title": "Dropdown",
                 "name": "下拉菜单",
                 "icon": "gold",
+                "disabled": false,
                 "to": "/dropdown",
                 "item": []
             },
@@ -86,6 +92,7 @@
                 "title": "Menu",
                 "name": "导航菜单",
                 "icon": "gold",
+                "disabled": false,
                 "to": "/menu",
                 "item": []
             },
@@ -93,6 +100,7 @@
                 "title": "PageHeader",
                 "name": "页头",
                 "icon": "gold",
+                "disabled": true,
                 "to": "/pageHeader",
                 "item": []
             },
@@ -100,6 +108,7 @@
                 "title": "Pagination",
                 "name": "分页",
                 "icon": "gold",
+                "disabled": true,
                 "to": "/pagination",
                 "item": []
             },
@@ -107,6 +116,7 @@
                 "title": "Steps",
                 "name": "步骤条",
                 "icon": "gold",
+                "disabled": true,
                 "to": "/steps",
                 "item": []
             }
@@ -114,164 +124,218 @@
     },
     {
         "title": "Data Entry",
-        "name": "",
+        "name": "数据输入",
         "icon": "appstore",
+        "disabled": false,
+        "to": "/dataEntry",
         "item": [
             {
                 "title": "Badge",
                 "name": "徽标",
                 "to": "/badge",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Circle",
                 "name": "环形进度条",
                 "to": "/circle",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Collapse",
                 "name": "折叠面板",
                 "to": "/collapse",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "CountDown",
                 "name": "倒计时",
                 "to": "/countDown",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Divider",
                 "name": "分割线",
                 "to": "/divider",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Empty",
                 "name": "空状态",
                 "to": "/empty",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "ImagePreview",
                 "name": "图片预览",
                 "to": "/imagePreview",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Lazyload",
                 "name": "懒加载",
                 "to": "/lazyload",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "List",
                 "name": "列表",
                 "to": "/list",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "NoticeBar",
                 "name": "通知栏",
                 "to": "/noticeBar",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Popover",
                 "name": "气泡弹出框",
                 "to": "/popover",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Progress",
                 "name": "进度条",
                 "to": "/progress",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Skeleton",
                 "name": "骨架屏",
                 "to": "/skeleton",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Steps",
                 "name": "步骤条",
                 "to": "/steps",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Sticky",
                 "name": "粘性布局",
                 "to": "/sticky",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Swipe",
                 "name": "轮播",
                 "to": "/swipe",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Tag",
                 "name": "标签",
                 "to": "/tag",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             }
         ]
     },
     {
         "title": "Data Display",
-        "name": "",
+        "name": "数据显示",
         "icon": "appstore",
+        "disabled": false,
+        "to": "/dataDisplay",
         "item": [
             {
                 "title": "Grid",
                 "name": "宫格",
                 "to": "/grid",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "IndexBar",
                 "name": "索引栏",
                 "to": "/indexBar",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "NavBar",
                 "name": "导航栏",
                 "to": "/navBar",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Pagination",
                 "name": "分页",
                 "to": "/pagination",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Sidebar",
                 "name": "侧边导航",
                 "to": "/sidebar",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Tab",
                 "name": "标签页",
                 "to": "/tab",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Tabbar",
                 "name": "标签栏",
                 "to": "/tabbar",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "TreeSelect",
                 "name": "分类选择",
                 "to": "/treeSelect",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             }
         ]
@@ -280,71 +344,95 @@
         "title": "Feedback",
         "name": "反馈",
         "icon": "appstore",
+        "disabled": false,
+        "to": "/feedback",
         "item": [
             {
                 "title": "AddressEdit",
                 "name": "地址编辑",
                 "to": "/addressEdit",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "AddressList",
                 "name": "地址列表",
                 "to": "/addressList",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Area",
                 "name": "省市区选择",
                 "to": "/area",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Card",
                 "name": "商品卡片",
                 "to": "/card",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "ContactCard",
                 "name": "联系人卡片",
                 "to": "/contactCard",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "ContactEdit",
                 "name": "联系人编辑",
                 "to": "/contactEdit",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "ContactList",
                 "name": "联系人列表",
                 "to": "/contactList",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Coupon",
                 "name": "优惠券",
                 "to": "/coupon",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "GoodsAction",
                 "name": "商品导航",
                 "to": "/goodsAction",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "SubmitBar",
                 "name": "提交订单栏",
                 "to": "/submitBar",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             },
             {
                 "title": "Sku",
                 "name": "商品规格",
                 "to": "/sku",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             }
         ]
@@ -353,14 +441,33 @@
         "title": "Other",
         "name": "其他",
         "icon": "appstore",
+        "disabled": false,
+        "to": "/other",
         "item": [
             {
                 "title": "Anchor",
                 "name": "锚点",
-                "iocn": "gold",
                 "to": "/achor",
+                "icon": "gold",
+                "disabled": true,
                 "item": []
             }
         ]
+    },
+    {
+        "title": "Plug",
+        "name": "插件",
+        "icon": "appstore",
+        "disabled": true,
+        "to": "/plug",
+        "item": []
+    },
+    {
+        "title": "Waiting",
+        "name": "待开放",
+        "icon": "appstore",
+        "disabled": true,
+        "to": "/waiting",
+        "item": []
     }
 ]

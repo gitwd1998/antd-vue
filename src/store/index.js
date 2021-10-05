@@ -7,9 +7,9 @@ export default new Vuex.Store({
   state: {
     token: localStorage.getItem('token'),
     lang: localStorage.getItem('lang') || 'zh',
-    user: "",
-    phone: "",
-    head: "",
+    username: "",
+    phonenumber: "",
+    avatar: "",
   },
   getters: {
     getToken(state) {
@@ -18,14 +18,14 @@ export default new Vuex.Store({
     getLang(state) {
       return state.lang
     },
-    getUser(state) {
-      return state.user
+    getUserName(state) {
+      return state.username
     },
-    getPhone(state) {
-      return state.phone
+    getPhoneNumber(state) {
+      return state.phonenumber
     },
-    getHead(state) {
-      return state.head
+    getAvatar(state) {
+      return state.avatar
     }
   },
   mutations: {
@@ -35,14 +35,14 @@ export default new Vuex.Store({
     setLang(state, lang) {
       state.lang = lang
     },
-    setUser(state, user) {
-      state.user = user
+    setUserName(state, username) {
+      state.username = username
     },
-    setPhone(state, phone) {
-      state.phone = phone
+    setPhoneNumber(state, phonenumber) {
+      state.phonenumber = phonenumber
     },
-    setHead(state, head) {
-      state.head = head
+    setAvatar(state, avatar) {
+      state.avatar = avatar
     }
   },
   actions: {

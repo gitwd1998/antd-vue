@@ -36,7 +36,7 @@
 </template>
 <script>
 import { Button, FormModel, Input, Message } from "ant-design-vue";
-import { captcha, login } from "@/api";
+import { captcha, login, getUserInfo } from "@/api";
 export default {
   components: {
     antFormModel: FormModel,
@@ -102,7 +102,7 @@ export default {
                 this.$store.commit("setPhoneNumber", res.data.phonenumber);
                 this.$store.commit("setAvatar", res.data.avatar);
               } else {
-                Toast(res.msg || `${res.name}: ${res.message}`);
+                Message.error(res.msg || `${res.name}: ${res.message}`);
                 localStorage.removeItem("token");
                 this.$store.commit("setToken", "");
                 this.$router.replace({ path: "/login" });

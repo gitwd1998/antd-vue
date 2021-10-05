@@ -12,6 +12,16 @@ const routes = [
       { path: '/home', component: () => import('@/views/Home') },
       { path: '/table', component: () => import('@/views/Table') },
       { path: '/list', component: () => import('@/views/List') },
+      // 导航
+      {
+        path: '/navigation', component: () => import('@/views/navigation'), children: [
+          { path: '/navigation/affix', component: () => import('@/views/navigation/Affix') },
+          { path: '/navigation/breadcrumb', component: () => import('@/views/navigation/Breadcrumb') },
+          { path: '/navigation/dropdown', component: () => import('@/views/navigation/Dropdown') },
+          { path: '/navigation/menu', component: () => import('@/views/navigation/Menu.js') },
+        ]
+      },
+
     ]
   },
   { path: '/Unusual', component: () => import('@/views/Unusual') },
