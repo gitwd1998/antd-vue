@@ -7,7 +7,12 @@
     :wrapper-col="{ span: 8 }"
   >
     <ant-form-model-item label="用户名" prop="username" has-feedback>
-      <ant-input v-model="form.username" size="large" placeholder="用户名" />
+      <ant-input
+        v-model="form.username"
+        size="large"
+        placeholder="用户名"
+        v-focus
+      />
     </ant-form-model-item>
     <ant-form-model-item label="密码" prop="password" has-feedback>
       <ant-input v-model="form.password" size="large" placeholder="密码" />
@@ -109,7 +114,7 @@ export default {
               }
             });
             Message.success(data.msg);
-            this.$router.replace("/layout");
+            this.$router.replace("/");
           } else {
             Message.error(data.msg || data.message);
             this.$refs.form.resetFields();

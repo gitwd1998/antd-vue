@@ -10,6 +10,7 @@
             rules: [{ required: true, message: '请输入用户名' }],
           },
         ]"
+        v-focus
       />
     </ant-form-item>
     <ant-form-item label="手机号码" :wrapper-col="{ span: 8 }">
