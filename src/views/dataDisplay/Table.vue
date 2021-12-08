@@ -113,55 +113,6 @@ const data = [
     age: 42,
     skill: ["HTML", "CSS", "JS"],
   },
-  {
-    key: "12",
-    name: "王五",
-    sex: "男",
-    age: 32,
-    skill: ["HTML", "CSS", "JS"],
-  },
-  {
-    key: "13",
-    name: "张三",
-    sex: "男",
-    age: 32,
-    skill: ["HTML", "CSS", "JS"],
-  },
-  {
-    key: "14",
-    name: "李四",
-    sex: "女",
-    age: 42,
-    skill: ["HTML", "CSS", "JS"],
-  },
-  {
-    key: "15",
-    name: "王五",
-    sex: "男",
-    age: 32,
-    skill: ["HTML", "CSS", "JS"],
-  },
-  {
-    key: "16",
-    name: "张三",
-    sex: "男",
-    age: 32,
-    skill: ["HTML", "CSS", "JS"],
-  },
-  {
-    key: "17",
-    name: "李四",
-    sex: "女",
-    age: 42,
-    skill: ["HTML", "CSS", "JS"],
-  },
-  {
-    key: "18",
-    name: "王五",
-    sex: "男",
-    age: 32,
-    skill: ["HTML", "CSS", "JS"],
-  },
 ];
 
 export default {
