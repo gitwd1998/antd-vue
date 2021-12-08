@@ -1,5 +1,7 @@
 import { Icon, Menu } from "ant-design-vue";
+import "@/layout/header/index.less";
 export default {
+  name: 'Header',
   render() {
     return (
       <Menu mode="horizontal" theme="dark">
@@ -19,7 +21,7 @@ export default {
           <Icon type="gold" />
           <span>nav 4</span>
         </Menu.Item>
-      </Menu>
+      </Menu >
     )
   },
 };

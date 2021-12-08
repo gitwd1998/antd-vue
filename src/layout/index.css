@@ -1,0 +1,9 @@
+.ant-layout {
+  height: 100%;
+}
+.ant-layout .ant-layout.ant-layout-has-sider .ant-layout-sider .ant-layout-sider-children {
+  overflow: auto;
+}
+.ant-layout .ant-layout.ant-layout-has-sider .ant-layout-content {
+  margin: 10px;
+}
