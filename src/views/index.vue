@@ -1,3 +1,10 @@
 <template>
-  <div>首页</div>
+  <div>
+    <ul>
+      <li>
+        打测试包后放到服务器上为什么递归导航不能用了,
+        [无法解析异步组件默认值：ReferenceError:无法在初始化之前访问“Sub”]
+      </li>
+    </ul>
+  </div>
 </template>
