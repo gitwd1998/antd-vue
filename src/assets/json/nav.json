@@ -441,9 +441,59 @@
         "title": "Waiting",
         "lable": "待开放",
         "icon": "appstore",
-        "disabled": true,
+        "disabled": false,
         "to": "/waiting",
         "name": "waiting",
-        "item": []
+        "item": [
+            {
+                "title": "Two",
+                "lable": "二级导航",
+                "icon": "gold",
+                "disabled": false,
+                "to": "/two",
+                "name": "two",
+                "item": [
+                    {
+                        "title": "Three",
+                        "lable": "三级导航",
+                        "icon": "build",
+                        "disabled": false,
+                        "to": "/three",
+                        "name": "three",
+                        "item": [
+                            {
+                                "title": "Fore",
+                                "lable": "四级导航",
+                                "icon": "build",
+                                "disabled": false,
+                                "to": "/fore",
+                                "name": "fore",
+                                "item": [
+                                    {
+                                        "title": "Five",
+                                        "lable": "五级导航",
+                                        "icon": "build",
+                                        "disabled": false,
+                                        "to": "/five",
+                                        "name": "five",
+                                        "item": [
+                                            {
+                                                "title": "......",
+                                                "lable": "",
+                                                "icon": "build",
+                                                "disabled": true,
+                                                "to": "/......",
+                                                "name": "......",
+                                                "item": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]
