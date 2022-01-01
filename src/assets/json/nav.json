@@ -1,6 +1,6 @@
 [
     {
-        "title": "General",
+        "tag": "General",
         "lable": "通用",
         "icon": "appstore",
         "disabled": false,
@@ -8,7 +8,7 @@
         "name": "general",
         "item": [
             {
-                "title": "Button",
+                "tag": "Button",
                 "lable": "按钮",
                 "icon": "gold",
                 "disabled": false,
@@ -17,7 +17,7 @@
                 "item": []
             },
             {
-                "title": "Icon",
+                "tag": "Icon",
                 "lable": "图标",
                 "icon": "gold",
                 "disabled": false,
@@ -28,7 +28,7 @@
         ]
     },
     {
-        "title": "Navigation",
+        "tag": "Navigation",
         "lable": "导航",
         "icon": "appstore",
         "disabled": false,
@@ -36,7 +36,7 @@
         "name": "navigation",
         "item": [
             {
-                "title": "Affix",
+                "tag": "Affix",
                 "lable": "固钉",
                 "icon": "gold",
                 "disabled": false,
@@ -45,7 +45,7 @@
                 "item": []
             },
             {
-                "title": "Breadcrumb",
+                "tag": "Breadcrumb",
                 "lable": "弹出框",
                 "icon": "gold",
                 "disabled": false,
@@ -54,7 +54,7 @@
                 "item": []
             },
             {
-                "title": "Dropdown",
+                "tag": "Dropdown",
                 "lable": "下拉菜单",
                 "icon": "gold",
                 "disabled": false,
@@ -63,7 +63,7 @@
                 "item": []
             },
             {
-                "title": "Menu",
+                "tag": "Menu",
                 "lable": "导航菜单",
                 "icon": "gold",
                 "disabled": false,
@@ -72,7 +72,7 @@
                 "item": []
             },
             {
-                "title": "PageHeader",
+                "tag": "PageHeader",
                 "lable": "页头",
                 "icon": "gold",
                 "disabled": true,
@@ -81,7 +81,7 @@
                 "item": []
             },
             {
-                "title": "Pagination",
+                "tag": "Pagination",
                 "lable": "分页",
                 "icon": "gold",
                 "disabled": true,
@@ -90,7 +90,7 @@
                 "item": []
             },
             {
-                "title": "Steps",
+                "tag": "Steps",
                 "lable": "步骤条",
                 "icon": "gold",
                 "disabled": true,
@@ -101,7 +101,7 @@
         ]
     },
     {
-        "title": "Data Entry",
+        "tag": "Data Entry",
         "lable": "数据输入",
         "icon": "appstore",
         "disabled": false,
@@ -109,7 +109,7 @@
         "name": "dataEntry",
         "item": [
             {
-                "title": "Circle",
+                "tag": "Circle",
                 "lable": "环形进度条",
                 "to": "/circle",
                 "name": "circle",
@@ -118,7 +118,7 @@
                 "item": []
             },
             {
-                "title": "Collapse",
+                "tag": "Collapse",
                 "lable": "折叠面板",
                 "to": "/collapse",
                 "name": "collapse",
@@ -127,7 +127,7 @@
                 "item": []
             },
             {
-                "title": "CountDown",
+                "tag": "CountDown",
                 "lable": "倒计时",
                 "to": "/countDown",
                 "name": "countDown",
@@ -136,7 +136,7 @@
                 "item": []
             },
             {
-                "title": "Divider",
+                "tag": "Divider",
                 "lable": "分割线",
                 "to": "/divider",
                 "name": "divider",
@@ -145,7 +145,7 @@
                 "item": []
             },
             {
-                "title": "Empty",
+                "tag": "Empty",
                 "lable": "空状态",
                 "to": "/empty",
                 "name": "empty",
@@ -154,7 +154,7 @@
                 "item": []
             },
             {
-                "title": "ImagePreview",
+                "tag": "ImagePreview",
                 "lable": "图片预览",
                 "to": "/imagePreview",
                 "name": "imagePreview",
@@ -163,7 +163,7 @@
                 "item": []
             },
             {
-                "title": "Lazyload",
+                "tag": "Lazyload",
                 "lable": "懒加载",
                 "to": "/lazyload",
                 "name": "lazyload",
@@ -172,7 +172,7 @@
                 "item": []
             },
             {
-                "title": "NoticeBar",
+                "tag": "NoticeBar",
                 "lable": "通知栏",
                 "to": "/noticeBar",
                 "name": "noticeBar",
@@ -181,7 +181,7 @@
                 "item": []
             },
             {
-                "title": "Popover",
+                "tag": "Popover",
                 "lable": "气泡弹出框",
                 "to": "/popover",
                 "name": "popover",
@@ -190,7 +190,7 @@
                 "item": []
             },
             {
-                "title": "Progress",
+                "tag": "Progress",
                 "lable": "进度条",
                 "to": "/progress",
                 "name": "progress",
@@ -199,7 +199,7 @@
                 "item": []
             },
             {
-                "title": "Skeleton",
+                "tag": "Skeleton",
                 "lable": "骨架屏",
                 "to": "/skeleton",
                 "name": "skeleton",
@@ -208,7 +208,7 @@
                 "item": []
             },
             {
-                "title": "Steps",
+                "tag": "Steps",
                 "lable": "步骤条",
                 "to": "/steps",
                 "name": "steps",
@@ -217,7 +217,7 @@
                 "item": []
             },
             {
-                "title": "Sticky",
+                "tag": "Sticky",
                 "lable": "粘性布局",
                 "to": "/sticky",
                 "name": "sticky",
@@ -226,7 +226,7 @@
                 "item": []
             },
             {
-                "title": "Swipe",
+                "tag": "Swipe",
                 "lable": "轮播",
                 "to": "/swipe",
                 "name": "swipe",
@@ -235,7 +235,7 @@
                 "item": []
             },
             {
-                "title": "Tag",
+                "tag": "Tag",
                 "lable": "标签",
                 "to": "/tag",
                 "name": "tag",
@@ -246,7 +246,7 @@
         ]
     },
     {
-        "title": "Data Display",
+        "tag": "Data Display",
         "lable": "数据显示",
         "icon": "appstore",
         "disabled": false,
@@ -254,7 +254,7 @@
         "name": "dataDisplay",
         "item": [
             {
-                "title": "Avatar",
+                "tag": "Avatar",
                 "lable": "头像",
                 "to": "/avatar",
                 "name": "avatar",
@@ -263,7 +263,7 @@
                 "item": []
             },
             {
-                "title": "Badge",
+                "tag": "Badge",
                 "lable": "徽标",
                 "to": "/badge",
                 "name": "badge",
@@ -272,7 +272,7 @@
                 "item": []
             },
             {
-                "title": "Empty",
+                "tag": "Empty",
                 "lable": "徽标",
                 "to": "/empty",
                 "name": "empty",
@@ -281,7 +281,7 @@
                 "item": []
             },
             {
-                "title": "List",
+                "tag": "List",
                 "lable": "列表",
                 "to": "/list",
                 "name": "list",
@@ -290,7 +290,7 @@
                 "item": []
             },
             {
-                "title": "Table",
+                "tag": "Table",
                 "lable": "表格",
                 "to": "/table",
                 "name": "table",
@@ -301,7 +301,7 @@
         ]
     },
     {
-        "title": "Feedback",
+        "tag": "Feedback",
         "lable": "反馈",
         "icon": "appstore",
         "disabled": false,
@@ -309,7 +309,7 @@
         "name": "feedback",
         "item": [
             {
-                "title": "AddressEdit",
+                "tag": "AddressEdit",
                 "lable": "地址编辑",
                 "to": "/addressEdit",
                 "name": "addressEdit",
@@ -318,7 +318,7 @@
                 "item": []
             },
             {
-                "title": "AddressList",
+                "tag": "AddressList",
                 "lable": "地址列表",
                 "to": "/addressList",
                 "name": "addressList",
@@ -327,7 +327,7 @@
                 "item": []
             },
             {
-                "title": "Area",
+                "tag": "Area",
                 "lable": "省市区选择",
                 "to": "/area",
                 "name": "area",
@@ -336,7 +336,7 @@
                 "item": []
             },
             {
-                "title": "Card",
+                "tag": "Card",
                 "lable": "商品卡片",
                 "to": "/card",
                 "name": "card",
@@ -345,7 +345,7 @@
                 "item": []
             },
             {
-                "title": "ContactCard",
+                "tag": "ContactCard",
                 "lable": "联系人卡片",
                 "to": "/contactCard",
                 "name": "contactCard",
@@ -354,7 +354,7 @@
                 "item": []
             },
             {
-                "title": "ContactEdit",
+                "tag": "ContactEdit",
                 "lable": "联系人编辑",
                 "to": "/contactEdit",
                 "name": "contactEdit",
@@ -363,7 +363,7 @@
                 "item": []
             },
             {
-                "title": "ContactList",
+                "tag": "ContactList",
                 "lable": "联系人列表",
                 "to": "/contactList",
                 "name": "contactList",
@@ -372,7 +372,7 @@
                 "item": []
             },
             {
-                "title": "Coupon",
+                "tag": "Coupon",
                 "lable": "优惠券",
                 "to": "/coupon",
                 "name": "coupon",
@@ -381,7 +381,7 @@
                 "item": []
             },
             {
-                "title": "GoodsAction",
+                "tag": "GoodsAction",
                 "lable": "商品导航",
                 "to": "/goodsAction",
                 "name": "goodsAction",
@@ -390,7 +390,7 @@
                 "item": []
             },
             {
-                "title": "SubmitBar",
+                "tag": "SubmitBar",
                 "lable": "提交订单栏",
                 "to": "/submitBar",
                 "name": "submitBar",
@@ -399,7 +399,7 @@
                 "item": []
             },
             {
-                "title": "Sku",
+                "tag": "Sku",
                 "lable": "商品规格",
                 "to": "/sku",
                 "name": "sku",
@@ -410,7 +410,7 @@
         ]
     },
     {
-        "title": "Other",
+        "tag": "Other",
         "lable": "其他",
         "icon": "appstore",
         "disabled": false,
@@ -418,7 +418,7 @@
         "name": "other",
         "item": [
             {
-                "title": "Anchor",
+                "tag": "Anchor",
                 "lable": "锚点",
                 "to": "/achor",
                 "name": "achor",
@@ -429,7 +429,7 @@
         ]
     },
     {
-        "title": "Plug",
+        "tag": "Plug",
         "lable": "插件",
         "icon": "appstore",
         "disabled": true,
@@ -438,7 +438,7 @@
         "item": []
     },
     {
-        "title": "Waiting",
+        "tag": "Waiting",
         "lable": "待开放",
         "icon": "appstore",
         "disabled": false,
@@ -446,7 +446,7 @@
         "name": "waiting",
         "item": [
             {
-                "title": "Two",
+                "tag": "Two",
                 "lable": "二级导航",
                 "icon": "gold",
                 "disabled": false,
@@ -454,7 +454,7 @@
                 "name": "two",
                 "item": [
                     {
-                        "title": "Three",
+                        "tag": "Three",
                         "lable": "三级导航",
                         "icon": "build",
                         "disabled": false,
@@ -462,7 +462,7 @@
                         "name": "three",
                         "item": [
                             {
-                                "title": "Fore",
+                                "tag": "Fore",
                                 "lable": "四级导航",
                                 "icon": "build",
                                 "disabled": false,
@@ -470,7 +470,7 @@
                                 "name": "fore",
                                 "item": [
                                     {
-                                        "title": "Five",
+                                        "tag": "Five",
                                         "lable": "五级导航",
                                         "icon": "build",
                                         "disabled": false,
@@ -478,7 +478,7 @@
                                         "name": "five",
                                         "item": [
                                             {
-                                                "title": "......",
+                                                "tag": "......",
                                                 "lable": "",
                                                 "icon": "build",
                                                 "disabled": true,

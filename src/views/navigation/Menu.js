@@ -9,7 +9,7 @@ const recursion = {
   },
   render(h, context) {
     return (<ul>
-      {context.props.list.map(v => v.item.length ? <li>{v.name}<recursion list={v.item} /></li> : <li>{v.name}</li>)}
+      {context.props.list.map(v => v.item?.length ? <li>{v.name}<recursion list={v.item} /></li> : <li>{v.name}</li>)}
     </ul>)
   }
 }
@@ -19,7 +19,7 @@ export default {
   },
   render() {
     return (<ul>
-      {nav.map(v => v.item.length ? <li>{v.name}<recursion list={v.item} /></li> : <li>{v.name}</li>)}
+      {nav.map(v => v.item?.length ? <li>{v.name}<recursion list={v.item} /></li> : <li>{v.name}</li>)}
     </ul>);
   },
 };
