@@ -17,6 +17,7 @@ module.exports = {
             },
         },
     },
+    productionSourceMap: false,
     devServer: {
         // 使用 npm run serve 之后是否自动在浏览器中打开项目
         open: true,
@@ -33,7 +34,7 @@ module.exports = {
             warnings: true,
             errors: true,
         },
-        // 如果前端应用和后端 API 服务器没有运行在同一个主机上，你需要在开发环境下将 API 请求代理到 API 服务器。这个问题可以通过 vue.config.js 中的 devServer.proxy 选项来配置。Type: Object || String
+        // 如果前端应用和后端 API 服务器没有运行在同一个主机上, 你需要在开发环境下将 API 请求代理到 API 服务器. 这个问题可以通过 vue.config.js 中的 devServer.proxy 选项来配置。Type: Object || String
         proxy: {
             '/api': {
                 // 接口域名
