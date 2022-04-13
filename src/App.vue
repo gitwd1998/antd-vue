@@ -15,7 +15,7 @@ export default {
   async created() {
     if (!window.navigator.onLine) Message.error("网络链接失败, 请检查网络连接");
     let token = this.$store.getters.getToken || "";
-    console.log(token);
+    console.info(token);
     if (token) {
       let res = await getUserInfo({ token });
       if (res.code === "0") {

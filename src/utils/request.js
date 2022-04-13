@@ -1,6 +1,6 @@
 import axios from 'axios'
 // axios.defaults.withCredentials = true // 配合后端拿到cookie中的值(打包后放到服务器上则不需要)
-console.warn(process.env)
+console.info(process.env)
 import { Message } from 'ant-design-vue'
 import router from '@/router'
 import store from '@/store'
