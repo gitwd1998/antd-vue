@@ -1,3 +1,4 @@
+const TerserPlugin = require("terser-webpack-plugin");
 process.env.VUE_APP_VERSION = require('./package.json').version
 module.exports = {
     css: {
@@ -18,6 +19,25 @@ module.exports = {
         },
     },
     productionSourceMap: false,
+    configureWebpack: {
+        plugins: [
+            new TerserPlugin({
+                cache: true,
+                sourceMap: false,
+                parallel: true,
+                terserOptions: {
+                    ecma: undefined,
+                    warnings: false,
+                    parse: {},
+                    compress: {
+                        drop_console: true,
+                        drop_debugger: false,
+                        pure_funcs: ['console.log'], // 移除console
+                    },
+                }
+            }),
+        ]
+    },
     devServer: {
         // 使用 npm run serve 之后是否自动在浏览器中打开项目
         open: true,
